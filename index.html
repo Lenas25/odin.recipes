@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <title>Odin Recipes</title>
 </head>
 <body>
@@ -14,10 +17,24 @@
     <h2>
         <strong>The best dishes!</strong>
     </h2>
-    <ol>
-        <li><a href="recipes/pizza.html">Pizza</a></li>
-        <li><a href="recipes/salad.html">Salad</a></li>
-        <li><a href="recipes/arroz.html">Arroz con Pollo</a></li>
-    </ol>
+    <div class="recipes">
+            <a href="recipes/pizza.html">
+                <button><strong>Pizza</strong></button>
+                </a><br>
+            <a href="recipes/ceviche.html">
+                <button><strong>Ceviche</strong></button>
+                </a><br>
+            <a href="recipes/arroz.html">
+                <button><strong>Arroz con Pollo</strong></button>
+                </a><br>
+    
+       
+    </div>
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ddbea9" fill-opacity="1" d="M0,32L40,64C80,96,160,160,240,176C320,192,400,160,480,133.3C560,107,640,85,720,69.3C800,53,880,43,960,53.3C1040,64,1120,96,1200,128C1280,160,1360,192,1400,208L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+          </svg>
+    </div>
+    
 </body>
 </html>
