@@ -45,6 +45,7 @@ button{
     width: 15em;
     font-size: large;
     color: black;
+
 }
 button:hover {
     cursor: pointer;
@@ -52,10 +53,9 @@ button:hover {
     background-color: #f2f2f2;
     box-shadow: 2px 4px 10px 0 #bcb8b1;
 }
-.wave-container {
-    position: relative;
-    background: #09F;
-    color: #FFF;
-    text-align: center;
-    overflow: hidden
+#wave {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
 }
